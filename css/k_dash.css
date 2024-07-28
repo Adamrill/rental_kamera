@@ -1,0 +1,148 @@
+/* poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    width: 20px;
+}
+
+/*.top {
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logout a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+.logout h3 {
+    font-family: sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: #000;
+} */
+
+/* navbar vetical menu */
+.navbar {
+    height: 100%;
+    width: 300px;
+    background-color: #020202;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    top: 0;
+    left: 0;
+    /* padding-top: 3px; */
+    display: block;
+}
+
+.profile img {
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 60px ;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 25px;
+}
+
+span.desc {
+    padding-left: 20px;
+    color: #fff;
+}
+
+.vertical-menu a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.menu_this:hover{
+    background-color: #2e2e2e;
+    display: flex;
+    align-items: center;
+}
+
+.menu_this.empat{
+    background-color: #2e2e2e;
+    display: block;
+}
+
+.menu_this img {
+    padding: 20px;
+}
+
+span.links-name {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* content */
+.content {
+    position: fixed;
+    padding: 30px;
+    margin-left: 400px;
+    margin-top: 20px;
+    margin-right: auto;
+}
+
+table {
+    width: 700px;
+    height: 300px;
+    overflow: scroll;
+}
+
+th, td {
+    height: 60px;
+}
+
+th {
+    background-color: #ffc60b;
+    text-align: center;
+}
+
+td {
+    color: #000;
+    text-align: center;
+}
+
+td img {
+    width: 40px;
+    height: 40px;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+button.color.one {
+    color: #00e600;
+}
+
+button.color.two {
+    color: #fd0808;
+}
+
+button.tambah {
+    letter-spacing: normal;
+    margin-top: 20px;
+}

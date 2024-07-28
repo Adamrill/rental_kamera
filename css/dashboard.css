@@ -1,0 +1,103 @@
+/* poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    width: 20px;
+}
+
+/*.top {
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logout a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+.logout h3 {
+    font-family: sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: #000;
+} */
+
+/* navbar vetical menu */
+.navbar {
+    height: 100%;
+    width: 300px;
+    background-color: #020202;
+    position: fixed;
+    /* padding-left: 20px;
+    padding-top: 25px; */
+}
+
+.profile img {
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 60px ;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 25px;
+}
+
+span.desc {
+    padding-left: 20px;
+    color: #fff;
+}
+
+.vertical-menu a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.menu_this:hover{
+    background-color: #2e2e2e;
+    display: flex;
+    align-items: center;
+}
+
+.menu_this.satu{
+    background-color: #2e2e2e;
+    display: block;
+}
+
+.menu_this img {
+    padding: 20px;
+}
+
+span.links-name {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* content edit */
+.content {
+    padding: 20px;
+    width: 600px;
+    height: 500px;
+    margin-left: 500px;
+}
+
+.content h1 {
+    margin-top: 30px;
+    padding-top: 50px;
+    font-weight: bold;
+}
